@@ -1,0 +1,34 @@
+This is just a text file
+KEYBOARD SHORTCUTS
+
+Copy-> Command + C
+Paste -> Command + V
+Select All -> Command + A
+Cut -> Command + X
+Revert Back -> Command + Z
+New -> Command + N
+Screenshot -> Command + Shift + 4
+Save -> Command + S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
