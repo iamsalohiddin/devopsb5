@@ -32,16 +32,18 @@ var1 = float(var1)
 print(type(var1)) #<class 'float'>
 print(var1) #5.0
 
+# incompatible type example
 
+#s='techtorial'
 
+#s=int(s)
 
+s='6'
 
+print(type(s))
 
-
-
-
-
-
+s = int(s)
+print(type(s))
 
 
 

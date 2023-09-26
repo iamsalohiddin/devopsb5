@@ -21,7 +21,7 @@
 
 #NOTE: Every time the number is divided by 10 will lose its last digit.
 
-four_digit_num = 9673
+four_digit_num = 1987
 three_digit_num = four_digit_num//10
 two_digit_num = three_digit_num//10
 one_digit_number = two_digit_num//10

@@ -1,0 +1,98 @@
+Git Key Terms
+
+Repository:
+It contains each files in your project and stores your changes as history.
+Think of this as a folder that Git can track(follow) the changes,
+updates or deletes.
+
+Local: 
+This refers to version of your project that is in your personal laptop.
+When you make changes in local, they are not immediately available to anyone else.
+Changes need to be commited and pushed a remote repository first.
+
+Staging environment:
+    Before you commit all the changes, you can decide which changes will be
+    included in commit by moving changes to staging environment.
+    Staging is like preparation table, where you can line your changes,
+    get ready for finalizing them.
+
+
+Commit:
+Once you are satisfied with changes you have made, then you can commit them.
+A commit is like taking a picture of all the changes that you have made at the
+moment.
+
+Remote Repository:
+A version of your project that is in the internet or another network,
+often in the platform like GitHub, GitLab, Bitbucket.
+After committing changes locally, commits will be pushed to remote repo.
+
+Basic commands of Git:
+Command is an order that we can execute in the terminal.
+
+git init:
+    This initializes a new git repository and begins tracking an existing directory.
+    Adds a hidden subfolder within the existing directory that houses the internal
+    data structure required for versions control.
+
+git add:
+    Adds changes in the directory(folder) to the staging area.
+    It compares it for the commit.
+    syntax: git add filename.extension
+    ```
+    git add git-day4.txt
+    ```
+    We sould want to add all the changes in staging environment.
+    ```
+    git add -A
+    ```
+
+git commit:
+    Takes all the changes written in the staging environment and saves them to the
+    local repository.
+    You should provide describing what this comit is for.
+    ```
+    git commit -m "Descriptive commit message"
+
+git push:
+    Pushes commits from your local repository to a remote repository.
+    For the first oush to a new remote you might need to specify branch as well.
+    First time:
+    ```
+    git push origin main
+    ```
+    All others:
+    ```
+    git push
+    ```
+
+What is token?
+Token is a string of characters that represents a specific permission or
+authorization.
+In git we can use PAT(Personal Access Token): A secure token
+that users generate to authenticate into their github account when using
+HTTPS protocol.
+
+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
+
+https://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@github.com/iamsalohiddin/devopsb5.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
