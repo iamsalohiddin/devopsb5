@@ -53,6 +53,39 @@ For ex: `5 == '5'` is `False` because one is str(text) and the other is int type
 print(1 < 2 < 3) # True
 ```
 
+## Note! 
+- `True` numerically equals to `1` and `False` numerically equals to `0`. For example:
+```py
+print(int(True)) # 1
+print(int(False)) # 0
+# When using comparison operators between boolean and int type, python auto converts bool type into int.
+print(True == 1)    # True
+print(True > False) # True
+print(False < 3)    # True
+```
+## Converting other types to bool 
+- Which function do you think we are going to use to convert other types to boolean?
+**bool()** function.
+```py
+b = bool(-2)
+print(b) # True
+b1 = bool(0)
+print(b1) # False
+```
+#### every number except `0` will result in `True`.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
