@@ -5,21 +5,15 @@
 # Note: User will enter the capacity and amount of tickets sold.
 
 
-stadium_capacity = input("Please enter the stadium capacity:")
+stadium_capacity = int(input("Please enter the stadium capacity:"))
 
-sold_tickets = input("Please enter the amount of tickets sold:")
+sold_tickets = int(input("Please enter the amount of tickets sold:"))
 
 # How can I check if there is still a space?
 
 is_there_space = stadium_capacity > sold_tickets 
 
 print("There is space for the game tonight:", is_there_space)
-
-
-# When you put the words in the dictionary
-# is apple
-# zebra
-# Python thinks apple < zebra
 
 
 
